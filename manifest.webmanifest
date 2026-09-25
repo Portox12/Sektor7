@@ -1,0 +1,17 @@
+{
+  "name": "Sektor C-7",
+  "short_name": "Sektor C-7",
+  "description": "Überlebe die Alien-Horde auf einer dunklen Raumstation.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#05070A",
+  "theme_color": "#05070A",
+  "lang": "de",
+  "icons": [
+    { "src": "bilder/symbol-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "bilder/symbol-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "bilder/symbol-maskierbar-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
