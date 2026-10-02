@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sector-7 ist umgezogen</title>
+  <meta http-equiv="refresh" content="2; url=https://sector-7.duckdns.org/">
+  <script>
+    // Die Testseite ist umgezogen: alte Links (auch Koop-Einladungen mit ?koop=CODE) führen zur Live-Seite mit Spiele-Server
+    const ziel = new URL('https://sector-7.duckdns.org/');
+    const alt = new URLSearchParams(location.search), koop = alt.get('koop');
+    if (koop) ziel.searchParams.set('koop', koop);
+    location.replace(ziel.toString());
+  </script>
+  <style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#04060A;color:#FFF3C4;font:18px/1.4 system-ui,sans-serif;text-align:center;padding:16px}a{color:#FFD84A}</style>
+</head>
+<body><p>Sector-7 ist umgezogen.<br><a href="https://sector-7.duckdns.org/">Weiter zu sector-7.duckdns.org</a></p></body>
+</html>
